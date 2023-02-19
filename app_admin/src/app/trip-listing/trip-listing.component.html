@@ -1,0 +1,6 @@
+<!--<pre>{{trips | json}}</pre>--->
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div *ngFor="let trip of trips" class="col">
+    <app-trip-card [trip]="trip" class="card-deck mt-2"></app-trip-card>
+  </div>
+</div>
